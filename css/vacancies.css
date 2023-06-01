@@ -1,0 +1,719 @@
+.vacancies {
+  background-color: white; }
+  .vacancies .vacancies-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    position: relative; }
+    @media (max-width: 1366px) {
+      .vacancies .vacancies-top {
+        padding: 40px 0; } }
+    @media (max-width: 1024px) {
+      .vacancies .vacancies-top {
+        padding: 40px 0px 120px 0px;
+        justify-content: space-between;
+        flex-flow: row wrap; } }
+    @media (max-width: 900px) {
+      .vacancies .vacancies-top {
+        padding: 40px 0px 100px 0px; } }
+    @media (max-width: 768px) {
+      .vacancies .vacancies-top {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 30px 0px 50px 0px; } }
+    @media (max-width: 400px) {
+      .vacancies .vacancies-top {
+        padding: 15px 0px 35px 0px; } }
+    .vacancies .vacancies-top .top-left,
+    .vacancies .vacancies-top .top-center,
+    .vacancies .vacancies-top .top-right {
+      margin: 0px;
+      padding: 0 45px; }
+      @media (max-width: 420px) {
+        .vacancies .vacancies-top .top-left,
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          padding: 0 20px; } }
+    .vacancies .vacancies-top .top-left {
+      font-size: 80px;
+      font-weight: 800;
+      color: black;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      margin-right: 0px;
+      z-index: 4; }
+      @media (max-width: 1366px) {
+        .vacancies .vacancies-top .top-left {
+          font-size: 54px; } }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-top .top-left {
+          font-size: 60px;
+          margin-right: auto;
+          margin-left: 0px;
+          width: 100%;
+          margin-bottom: 10px; } }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-top .top-left {
+          font-size: 36px;
+          margin-bottom: 10px; } }
+      @media (max-width: 400px) {
+        .vacancies .vacancies-top .top-left {
+          font-size: 26px;
+          margin-bottom: 6px; } }
+    .vacancies .vacancies-top .top-center .text-style2 {
+      display: none;
+      color: black;
+      font-weight: 600; }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-top .top-center .text-style2 {
+          display: inline; } }
+    .vacancies .vacancies-top .top-center .text-style1 {
+      color: black;
+      font-weight: 600; }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-top .top-center .text-style1 {
+          display: none; } }
+    .vacancies .vacancies-top .top-right {
+      font-weight: 600; }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-top .top-right {
+          text-align: right; } }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-top .top-right {
+          margin-top: 15px;
+          text-align: left; } }
+    .vacancies .vacancies-top .top-center,
+    .vacancies .vacancies-top .top-right {
+      font-size: 30px;
+      font-weight: 600;
+      color: black;
+      max-width: 440px;
+      z-index: 4; }
+      @media (max-width: 1366px) {
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          font-size: 18px;
+          max-width: 300px; } }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          max-width: 500px;
+          font-size: 30px;
+          margin-left: 0px; } }
+      @media (max-width: 930px) {
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          max-width: 380px;
+          font-size: 25px; } }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          max-width: 100%;
+          font-size: 19px; } }
+      @media (max-width: 400px) {
+        .vacancies .vacancies-top .top-center,
+        .vacancies .vacancies-top .top-right {
+          font-size: 14px; } }
+      .vacancies .vacancies-top .top-center a,
+      .vacancies .vacancies-top .top-right a {
+        color: black; }
+        @media (max-width: 1366px) {
+          .vacancies .vacancies-top .top-center a,
+          .vacancies .vacancies-top .top-right a {
+            color: #9e47d1; } }
+        @media (max-width: 768px) {
+          .vacancies .vacancies-top .top-center a,
+          .vacancies .vacancies-top .top-right a {
+            color: black; } }
+  .vacancies .vacancies-main {
+    height: 600px;
+    background-color: #111011;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%; }
+    @media (max-width: 1600px) {
+      .vacancies .vacancies-main {
+        height: 429px; } }
+    @media (max-width: 1024px) {
+      .vacancies .vacancies-main {
+        height: auto; } }
+    .vacancies .vacancies-main .main-centr {
+      width: 100%;
+      margin: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch; }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-main .main-centr {
+          flex-direction: column; } }
+      .vacancies .vacancies-main .main-centr .toggle-bar,
+      .vacancies .vacancies-main .main-centr .toggle-bar2 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; }
+        @media (max-width: 1366px) {
+          .vacancies .vacancies-main .main-centr .toggle-bar,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 {
+            min-width: 426px; } }
+        @media (max-width: 1024px) {
+          .vacancies .vacancies-main .main-centr .toggle-bar,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 {
+            min-width: auto; } }
+        @media (max-width: 768px) {
+          .vacancies .vacancies-main .main-centr .toggle-bar,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 {
+            width: 100%; } }
+        .vacancies .vacancies-main .main-centr .toggle-bar .item,
+        .vacancies .vacancies-main .main-centr .toggle-bar2 .item {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          flex-direction: column;
+          max-height: 600px;
+          transition: max-height;
+          transition-duration: 200ms;
+          opacity: 1;
+          height: 100%;
+          width: 100%;
+          border-right: 2px solid #111011; }
+          @media (max-width: 1600px) {
+            .vacancies .vacancies-main .main-centr .toggle-bar .item,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item {
+              max-height: 429px; } }
+          @media (max-width: 1024px) {
+            .vacancies .vacancies-main .main-centr .toggle-bar .item,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item {
+              max-height: none; } }
+          .vacancies .vacancies-main .main-centr .toggle-bar .item:last-of-type .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 .item:last-of-type .item-title {
+            border-bottom: none; }
+          .vacancies .vacancies-main .main-centr .toggle-bar .item:first-of-type .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 .item:first-of-type .item-title {
+            border-top: 2px solid #111011; }
+          .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+            width: 100%;
+            height: 100%;
+            max-height: 149px;
+            border: 2px solid #111011;
+            border-top: none;
+            border-right: none;
+            padding: 30px 35px;
+            background-color: white;
+            position: relative;
+            cursor: pointer; }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title:hover,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title:hover {
+              background-color: #ffa918; }
+            @media (max-width: 1600px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 20px 25px;
+                max-height: 109px; } }
+            @media (max-width: 1024px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 30px 30px;
+                max-height: 127px; } }
+            @media (max-width: 900px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 30px 15px 45px 30px; } }
+            @media (max-width: 768px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 30px 30px; } }
+            @media (max-width: 428px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 20px 30px; } }
+            @media (max-width: 420px) {
+              .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title {
+                padding: 30px 30px; } }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+              color: black;
+              font-size: 36px;
+              font-weight: bold;
+              line-height: 1; }
+              @media (max-width: 1720px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+                  font-size: 30px; } }
+              @media (max-width: 1600px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+                  font-size: 26px;
+                  line-height: 31px; } }
+              @media (max-width: 1024px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+                  font-size: 23px;
+                  line-height: 27px; } }
+              @media (max-width: 768px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+                  font-size: 22px;
+                  line-height: 26px; } }
+              @media (max-width: 420px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .vacancy,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .vacancy {
+                  font-size: 16px;
+                  line-height: 19px; } }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+              color: black;
+              font-size: 30px;
+              font-weight: 600; }
+              @media (max-width: 1720px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+                  font-size: 26px; } }
+              @media (max-width: 1600px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+                  font-size: 20px; } }
+              @media (max-width: 1024px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+                  font-size: 19px; } }
+              @media (max-width: 768px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+                  font-size: 19px;
+                  line-height: 26px; } }
+              @media (max-width: 420px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .stack,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .stack {
+                  font-size: 19px;
+                  line-height: 26px; } }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+              color: black;
+              font-size: 20px;
+              font-weight: 600;
+              text-decoration: underline;
+              position: absolute;
+              right: 15px;
+              bottom: 20px; }
+              @media (max-width: 1720px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+                  font-size: 18px; } }
+              @media (max-width: 1600px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+                  font-size: 14px; } }
+              @media (max-width: 1024px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+                  font-size: 18px; } }
+              @media (max-width: 900px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+                  font-size: 16px;
+                  bottom: 15px; } }
+              @media (max-width: 420px) {
+                .vacancies .vacancies-main .main-centr .toggle-bar .item .item-title .more,
+                .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-title .more {
+                  bottom: 10px; } }
+          .vacancies .vacancies-main .main-centr .toggle-bar .item .item-content,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 .item .item-content {
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0;
+            max-height: 0px;
+            transition-duration: 200ms; }
+          .vacancies .vacancies-main .main-centr .toggle-bar .item.active,
+          .vacancies .vacancies-main .main-centr .toggle-bar2 .item.active {
+            overflow: hidden;
+            position: relative;
+            z-index: 3; }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item.active .item-title,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item.active .item-title {
+              background-color: #ffa918;
+              transition: background-color;
+              transition-duration: 500ms;
+              border-bottom: none; }
+              .vacancies .vacancies-main .main-centr .toggle-bar .item.active .item-title::after,
+              .vacancies .vacancies-main .main-centr .toggle-bar2 .item.active .item-title::after {
+                background-image: url(../img/values/arrow/toglle-down.png); }
+            .vacancies .vacancies-main .main-centr .toggle-bar .item.active .item-content,
+            .vacancies .vacancies-main .main-centr .toggle-bar2 .item.active .item-content {
+              max-height: none;
+              opacity: 1;
+              transition: max-height, opacity;
+              transition-duration: 300ms, 200ms;
+              transition-delay: 300ms, 400ms;
+              transition-timing-function: ease-out;
+              position: relative; }
+        .vacancies .vacancies-main .main-centr .toggle-bar.toggle .item:not(.active),
+        .vacancies .vacancies-main .main-centr .toggle-bar2.toggle .item:not(.active) {
+          opacity: 0;
+          max-height: 0px;
+          transition: max-height, opacity;
+          transition-duration: 300ms, 200ms;
+          position: relative;
+          z-index: 1; }
+        .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item,
+        .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item {
+          border-right: none; }
+          .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item:last-of-type .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item:last-of-type .item-title {
+            border-bottom: none; }
+          .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item.active .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item.active .item-title {
+            background-color: #9e47d1;
+            border-bottom: 2px solid white; }
+          .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item .item-title,
+          .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item .item-title {
+            background-color: #111011;
+            border: 2px solid white;
+            border-top: none;
+            border-left: none; }
+            .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item .item-title:hover,
+            .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item .item-title:hover {
+              background-color: #9e47d1; }
+            .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item .item-title .vacancy,
+            .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item .item-title .stack,
+            .vacancies .vacancies-main .main-centr .toggle-bar.toggle-right .item .item-title .more,
+            .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item .item-title .vacancy,
+            .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item .item-title .stack,
+            .vacancies .vacancies-main .main-centr .toggle-bar2.toggle-right .item .item-title .more {
+              color: white; }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-main .main-centr .toggle-bar2 {
+          display: none; } }
+    .vacancies .vacancies-main .block-left-wraper,
+    .vacancies .vacancies-main .block-rigth-wraper {
+      z-index: 4;
+      max-width: 240px;
+      overflow: hidden;
+      background-color: #111011;
+      height: 100%;
+      margin: 0px;
+      width: 100%;
+      position: relative; }
+      @media (max-width: 1366px) {
+        .vacancies .vacancies-main .block-left-wraper,
+        .vacancies .vacancies-main .block-rigth-wraper {
+          max-width: 171px; } }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-main .block-left-wraper,
+        .vacancies .vacancies-main .block-rigth-wraper {
+          display: none; } }
+      .vacancies .vacancies-main .block-left-wraper .block-left,
+      .vacancies .vacancies-main .block-left-wraper .block-rigth,
+      .vacancies .vacancies-main .block-rigth-wraper .block-left,
+      .vacancies .vacancies-main .block-rigth-wraper .block-rigth {
+        max-height: 724px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        animation-delay: 0s;
+        z-index: 2; }
+      .vacancies .vacancies-main .block-left-wraper .block-line,
+      .vacancies .vacancies-main .block-rigth-wraper .block-line {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .vacancies .vacancies-main .block-left-wraper .block-line .block,
+        .vacancies .vacancies-main .block-rigth-wraper .block-line .block {
+          border: 4px solid white;
+          border-top: 1px solid white;
+          border-bottom: 1px solid white;
+          background-color: #111011;
+          width: 95px;
+          height: 150px; }
+      .vacancies .vacancies-main .block-left-wraper .circle1-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle1-absolute {
+        position: absolute;
+        width: 190px;
+        bottom: -50px;
+        right: -70px;
+        animation-name: circle1;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle1-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle1-absolute {
+            width: 135px;
+            bottom: -30px;
+            right: -45px; } }
+      .vacancies .vacancies-main .block-left-wraper .circle2-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle2-absolute {
+        position: absolute;
+        width: 115px;
+        top: 90px;
+        right: 70px;
+        animation-name: circle2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle2-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle2-absolute {
+            width: 82px;
+            top: 70px;
+            left: 30px;
+            right: auto; } }
+      .vacancies .vacancies-main .block-left-wraper .circle3-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle3-absolute {
+        position: absolute;
+        top: 240px;
+        right: 20px;
+        width: 54px;
+        animation-name: circle3;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle3-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle3-absolute {
+            top: 170px;
+            right: 20px;
+            width: 39px; } }
+      .vacancies .vacancies-main .block-left-wraper .circle4-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle4-absolute {
+        position: absolute;
+        top: -60px;
+        right: -35px;
+        width: 190px;
+        animation-name: circle2;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle4-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle4-absolute {
+            top: -45px;
+            right: -30px;
+            width: 136px; } }
+      .vacancies .vacancies-main .block-left-wraper .circle5-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle5-absolute {
+        position: absolute;
+        width: 55px;
+        top: 350px;
+        left: 20px;
+        animation-name: circle2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle5-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle5-absolute {
+            width: 39px;
+            top: auto;
+            bottom: 130px;
+            left: 33px; } }
+      .vacancies .vacancies-main .block-left-wraper .circle6-absolute,
+      .vacancies .vacancies-main .block-rigth-wraper .circle6-absolute {
+        position: absolute;
+        bottom: 40px;
+        left: 54px;
+        width: 115px;
+        animation-name: circle3;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out; }
+        @media (max-width: 1600px) {
+          .vacancies .vacancies-main .block-left-wraper .circle6-absolute,
+          .vacancies .vacancies-main .block-rigth-wraper .circle6-absolute {
+            bottom: 29px;
+            left: 54px;
+            width: 82px; } }
+    .vacancies .vacancies-main .block-left-wraper {
+      border-right: 2px solid white; }
+      .vacancies .vacancies-main .block-left-wraper .block-left {
+        animation: steps-left-in-box 1s linear infinite; }
+        @media (max-width: 1366px) {
+          .vacancies .vacancies-main .block-left-wraper .block-left {
+            animation: steps-left-digital-1366 1s linear infinite; } }
+    .vacancies .vacancies-main .block-rigth-wraper {
+      position: relative;
+      border-left: 2px solid white; }
+      .vacancies .vacancies-main .block-rigth-wraper .block-rigth {
+        animation: steps-right-in-box 1s linear infinite; }
+        @media (max-width: 1366px) {
+          .vacancies .vacancies-main .block-rigth-wraper .block-rigth {
+            animation: steps-right-digital-1366 1s linear infinite; } }
+  .vacancies .vacancies-footer {
+    height: 150px; }
+    @media (max-width: 1366px) {
+      .vacancies .vacancies-footer {
+        height: 115px; } }
+    @media (max-width: 1024px) {
+      .vacancies .vacancies-footer {
+        height: 290px;
+        overflow: hidden; } }
+    @media (max-width: 768px) {
+      .vacancies .vacancies-footer {
+        height: 150px; } }
+    @media (max-width: 420px) {
+      .vacancies .vacancies-footer {
+        height: 105px; } }
+    .vacancies .vacancies-footer .block-3d {
+      display: none;
+      height: 295px;
+      position: relative; }
+      @media (max-width: 1024px) {
+        .vacancies .vacancies-footer .block-3d {
+          display: block; } }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-footer .block-3d {
+          height: 130px; } }
+      .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .shadow {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: auto;
+        bottom: 270px;
+        height: 0px;
+        box-shadow: 0 0px 110px 110px #111011;
+        z-index: 3; }
+        @media (max-width: 768px) {
+          .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .shadow {
+            box-shadow: 0 0px 70px 110px #111011;
+            bottom: 160px; } }
+      .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom {
+        max-height: 180px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        animation: steps-bot-in-box-mob 1s linear infinite;
+        animation-delay: 0s;
+        z-index: 2;
+        position: absolute;
+        bottom: 160px;
+        height: auto; }
+        @media (max-width: 1024px) {
+          .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom {
+            display: flex; } }
+        @media (max-width: 768px) {
+          .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom {
+            bottom: 0px; } }
+        .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom .block-line {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom .block-line .block {
+            border: 1px solid white;
+            background-color: #111011;
+            width: 50px;
+            height: 22px; }
+            @media (max-width: 768px) {
+              .vacancies .vacancies-footer .block-3d .botom-3d-wrapper .block-bottom .block-line .block {
+                width: 50px;
+                height: 22px; } }
+      .vacancies .vacancies-footer .block-3d .circle1-absolute {
+        position: absolute;
+        left: -60px;
+        top: -40px;
+        width: 190px;
+        z-index: 3;
+        animation-name: circle-vacancies-3;
+        animation-duration: 7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 1.5s; }
+      .vacancies .vacancies-footer .block-3d .circle2-absolute {
+        position: absolute;
+        right: -80px;
+        bottom: -60px;
+        width: 268px;
+        z-index: 3;
+        animation-name: circle-vacancies-4;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; }
+      .vacancies .vacancies-footer .block-3d .circle3-absolute {
+        position: absolute;
+        right: 30%;
+        top: 60px;
+        width: 54px;
+        z-index: 3;
+        animation-name: circle-vacancies-3;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; }
+      .vacancies .vacancies-footer .block-3d .circle4-absolute {
+        position: absolute;
+        left: 260px;
+        top: 70px;
+        width: 115px;
+        z-index: 3;
+        animation-name: circle-vacancies-2;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; }
+      @media (max-width: 768px) {
+        .vacancies .vacancies-footer .block-3d .circle1-absolute,
+        .vacancies .vacancies-footer .block-3d .circle2-absolute,
+        .vacancies .vacancies-footer .block-3d .circle3-absolute,
+        .vacancies .vacancies-footer .block-3d .circle4-absolute {
+          display: none; } }
+
+@keyframes circle-vacancies-1 {
+  0% {
+    transform: rotate(40deg); }
+  15% {
+    transform: rotate(40deg); }
+  35% {
+    transform: rotate(-40deg); }
+  65% {
+    transform: rotate(-40deg); }
+  85% {
+    transform: rotate(40deg); }
+  100% {
+    transform: rotate(40deg); } }
+@keyframes circle-vacancies-2 {
+  0% {
+    transform: rotate(-15deg); }
+  100% {
+    transform: rotate(345deg); } }
+@keyframes circle-vacancies-3 {
+  0% {
+    transform: rotate(10deg); }
+  15% {
+    transform: rotate(10deg); }
+  35% {
+    transform: rotate(-10deg); }
+  65% {
+    transform: rotate(-10deg); }
+  85% {
+    transform: rotate(10deg); }
+  100% {
+    transform: rotate(10deg); } }
+@keyframes circle-vacancies-4 {
+  0% {
+    transform: rotate(55deg); }
+  15% {
+    transform: rotate(55deg); }
+  35% {
+    transform: rotate(-55deg); }
+  65% {
+    transform: rotate(-55deg); }
+  85% {
+    transform: rotate(55deg); }
+  100% {
+    transform: rotate(55deg); } }
+
+/*# sourceMappingURL=vacancies.css.map */

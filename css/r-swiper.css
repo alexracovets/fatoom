@@ -1,0 +1,39 @@
+.select-wrapper {
+    position: relative;
+}
+
+.select-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+    z-index: 10;
+}
+
+.select-back img {
+    transform: rotateZ(180deg) translateX(3px);
+}
+
+.select-back,
+*[next] {
+    cursor: pointer;
+}
+.reloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+    z-index: 10;
+    padding: 5px;
+    cursor: pointer;
+}
